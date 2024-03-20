@@ -304,6 +304,15 @@
     }
 }
 
+/* ===================para-content=============== */
+.max_w_768 {
+    max-width: 768px;
+}
+
+.pb_50{
+  padding-bottom: 50px;
+}
+
 @media (max-width:992px) {
     .overFlowHidden {
         overflow: hidden;
@@ -409,5 +418,10 @@
 
     .mt_lg_52 {
         margin-top: 52px;
+    }
+
+    .py_lg_141_110 {
+        padding-top: 141px;
+        padding-bottom: 110px;
     }
 }
