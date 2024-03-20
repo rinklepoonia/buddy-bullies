@@ -112,14 +112,15 @@
     padding-top: 26px;
 }
 
-.gap_80 {
-    gap: 80px;
+.gap-40 {
+    gap: 40px;
 }
 
 .btn_style {
     padding: 10px 31px;
     background: var(--clr-white);
     border-radius: 45.5px;
+    border: 2px solid transparent;
 }
 
 .cross span:nth-child(1) {
@@ -158,6 +159,10 @@
     width: 100%;
 }
 
+.transition {
+    transition: 0.2s linear;
+}
+
 /* =============mint-your-bat============ */
 .max_w_574 {
     max-width: 574px;
@@ -172,7 +177,7 @@
     transition: all 0.2s linear;
 }
 
-.gif_btn_style:hover {
+.gif_btn_style_hover:hover {
     box-shadow: 10px 10px 19px -4px var(--clr-white);
     background: var(--clr-black);
     color: var(--clr-white);
@@ -431,6 +436,10 @@
 }
 
 @media (min-width:992px) {
+    .gap_lg_80 {
+        gap: 80px;
+    }
+
     .lh-lg-86 {
         line-height: 86px;
     }
