@@ -16,7 +16,7 @@
 }
 
 .ff-montserrat {
-    font-family: mont;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* ===============font-weight============ */
@@ -309,8 +309,60 @@
     max-width: 768px;
 }
 
-.pb_50{
-  padding-bottom: 50px;
+.pb_50 {
+    padding-bottom: 50px;
+}
+
+/* =================accordion============= */
+.max_w_800 {
+    max-width: 800px;
+}
+
+.accordion-item {
+    background: var(--clr-bodyBlue);
+}
+
+.accordion-button:not(.collapsed) {
+    background: var(--clr-accBlue);
+    color: var(--clr-white);
+}
+
+.accordion-button {
+    background: var(--clr-accBlue);
+    border-radius: 200px;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    padding: 0 30px 20px 30px;
+}
+
+.accordion {
+    --bs-accordion-border-color: transparent;
+    max-width: 830px;
+}
+
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+    border-radius: 200px;
+}
+
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+    border-radius: 200px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(/assets/images/svg/bottom-arrow.svg);
+    background-position: center;
+}
+
+.accordion-button::after {
+    background-image: url(/assets/images/svg/bottom-arrow.svg);
+    background-position: center;
 }
 
 @media (max-width:992px) {
@@ -385,6 +437,10 @@
     .max_w_404 {
         max-width: 404px;
     }
+
+    .mb_md_25 {
+        margin-bottom: 25px;
+    }
 }
 
 @media (min-width:992px) {
@@ -423,5 +479,9 @@
     .py_lg_141_110 {
         padding-top: 141px;
         padding-bottom: 110px;
+    }
+
+    .mb_lg_47 {
+        margin-bottom: 47px;
     }
 }
