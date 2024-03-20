@@ -109,6 +109,10 @@
     opacity: 0.5;
 }
 
+.opacity60 {
+    opacity: 0.6;
+}
+
 .pt_26 {
     padding-top: 26px;
 }
@@ -366,13 +370,28 @@
 }
 
 /* ====================our-team=============== */
-
-
 .max_w_220 {
     max-width: 220px;
 }
 
+/* ===============footer================ */
+.footer_bg_img {
+    background-image: url(/assets/images/png/footer-bg-img.png);
+    background-position: center;
+    background-size: cover;
+}
 
+.max_w_388 {
+    max-width: 388px;
+}
+
+.pt_200 {
+    padding-top: 300px;
+}
+
+.row_gap2 {
+    row-gap: 10px;
+}
 
 @media (max-width:992px) {
     .overFlowHidden {
@@ -504,5 +523,9 @@
 
     .pt_lg_121 {
         padding-top: 121px;
+    }
+
+    .row_gap {
+        row-gap: 20px;
     }
 }
