@@ -196,6 +196,114 @@
     scale: 1.3;
 }
 
+/* ======================rodmap================ */
+
+.pb_sm_63 {
+    padding-bottom: 40px;
+}
+
+.pb_0 {
+    padding-bottom: 0;
+}
+
+.align_items_sm_end {
+    align-items: end;
+}
+
+.text_end {
+    text-align: end;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    /* background-color: white; */
+    top: 0;
+    bottom: -19px;
+    left: 50%;
+    margin-left: -3px;
+    /* border-left: 2px dashed white; */
+    border-radius: 20px;
+    background-image: url(/assets/images/png/timeline-line.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.timeline_container {
+    padding: 0 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.timeline_container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -10px;
+    background: var(--clr-timelineblue);
+    border: 3.23px solid var(--clr-white);
+    top: 0;
+    border-radius: 50%;
+    z-index: 1;
+    outline: 11px solid var(--clr-timeline-outline);
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+.right::after {
+    left: -14px;
+}
+
+.content {
+    padding: 0 30px;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .align_items_start {
+        align-items: start;
+    }
+
+    .text_start {
+        text-align: start;
+    }
+
+    .timeline::after {
+        left: 31px;
+    }
+
+    .timeline_container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+}
+
 @media (max-width:992px) {
     .overFlowHidden {
         overflow: hidden;
@@ -259,6 +367,14 @@
 
     .mb_md_46 {
         margin-bottom: 46px;
+    }
+
+    .pb_md_63 {
+        padding-bottom: 63px;
+    }
+
+    .max_w_404 {
+        max-width: 404px;
     }
 }
 
