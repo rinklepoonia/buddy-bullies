@@ -365,6 +365,15 @@
     background-position: center;
 }
 
+/* ====================our-team=============== */
+
+
+.max_w_220 {
+    max-width: 220px;
+}
+
+
+
 @media (max-width:992px) {
     .overFlowHidden {
         overflow: hidden;
@@ -418,6 +427,14 @@
     .lh-sm-40 {
         line-height: 40.8px;
 
+    }
+
+    .max_w_sm_293 {
+        max-width: 293px;
+    }
+
+    .pt_sm_60 {
+        padding-top: 60px;
     }
 }
 
@@ -483,5 +500,9 @@
 
     .mb_lg_47 {
         margin-bottom: 47px;
+    }
+
+    .pt_lg_121 {
+        padding-top: 121px;
     }
 }
