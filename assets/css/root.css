@@ -16,7 +16,9 @@
     --clr-bodyBlue: #000A1A;
     --clr-timelineblue: #009DFF;
     --clr-timeline-outline: #001931;
+    --clr-cardsblue: #031227;
 }
+
 
 .color-bodyblue {
     background: var(--clr-bodyBlue);
