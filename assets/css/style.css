@@ -361,6 +361,66 @@
     padding-bottom: 50px;
 }
 
+/* =================accordion============= */
+.max_w_800 {
+    max-width: 800px;
+}
+
+.accordion_ellip_position {}
+
+.accordion-item {
+    background: var(--clr-bodyBlue);
+}
+
+.accordion-button:not(.collapsed) {
+    background: var(--clr-accBlue);
+    color: var(--clr-white);
+}
+
+.accordion-button {
+    background: var(--clr-accBlue);
+    border-radius: 200px;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    padding: 0 30px 20px 30px;
+}
+
+.accordion {
+    --bs-accordion-border-color: transparent;
+    max-width: 830px;
+}
+
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+    border-radius: 200px;
+}
+
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+    border-radius: 200px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(/assets/images/svg/bottom-arrow.svg);
+    background-position: center;
+}
+
+.accordion-button::after {
+    background-image: url(/assets/images/svg/bottom-arrow.svg);
+    background-position: center;
+}
+
+/* =====================our-team============= */
+.max_w_220 {
+    max-width: 220px;
+}
+
+
 @media screen and (max-width: 768px) {
     .align_items_start {
         align-items: start;
@@ -388,15 +448,6 @@
     .right {
         left: 0%;
     }
-}
-
-/* ===================para-content=============== */
-.max_w_768 {
-    max-width: 768px;
-}
-
-.pb_50 {
-    padding-bottom: 50px;
 }
 
 @media (max-width:992px) {
@@ -467,7 +518,18 @@
 
     .lh-sm-40 {
         line-height: 40.8px;
+    }
 
+    .pt_sm_60 {
+        padding-top: 60px;
+    }
+
+    .pb_sm_40 {
+        padding-bottom: 40px;
+    }
+
+    .max_w_sm_293 {
+        max-width: 293px;
     }
 }
 
@@ -487,9 +549,18 @@
     .max_w_404 {
         max-width: 404px;
     }
+
+    .mb_md_25 {
+        margin-bottom: 25px;
+    }
+
 }
 
 @media (min-width:992px) {
+    .pb_lg_100 {
+        padding-bottom: 100px;
+    }
+
     .gap_lg_80 {
         gap: 80px;
     }
