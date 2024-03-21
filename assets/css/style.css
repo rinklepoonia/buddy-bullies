@@ -16,7 +16,7 @@
 }
 
 .ff-montserrat {
-    font-family: mont;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* ===============font-weight============ */
@@ -106,6 +106,10 @@
 
 .opacity50 {
     opacity: 0.5;
+}
+
+.opacity60 {
+    opacity: 0.6;
 }
 
 .pt_26 {
@@ -386,6 +390,15 @@
     }
 }
 
+/* ===================para-content=============== */
+.max_w_768 {
+    max-width: 768px;
+}
+
+.pb_50{
+  padding-bottom: 50px;
+}
+
 @media (max-width:992px) {
     .overFlowHidden {
         overflow: hidden;
@@ -425,6 +438,10 @@
         background: var(--clr-white);
         transition: all 300ms linear;
     }
+
+    .footer_bg_img {
+        background: var(--clr-accBlue);
+    }
 }
 
 @media (min-width:576px) {
@@ -450,14 +467,7 @@
 
     .lh-sm-40 {
         line-height: 40.8px;
-    }
 
-    .lh-sm-45 {
-        line-height: 45px;
-    }
-
-    .collection_card {
-        padding: 19px 20px;
     }
 }
 
@@ -474,16 +484,8 @@
         padding-bottom: 63px;
     }
 
-    .pt_md_80 {
-        padding-top: 80px;
-    }
-
     .max_w_404 {
         max-width: 404px;
-    }
-
-    .collection_card {
-        padding: 29px 30px;
     }
 }
 
@@ -527,24 +529,5 @@
     .py_lg_141_110 {
         padding-top: 141px;
         padding-bottom: 110px;
-    }
-
-    .pt_lg_131 {
-        padding-top: 131px;
-    }
-
-    .pb_lg_146 {
-        padding-bottom: 146px;
-    }
-
-    .collection_card {
-        padding: 39px 40px;
-    }
-
-}
-
-@media (min-width:1200px) {
-    .mb_xl_44 {
-        margin-bottom: 44px;
     }
 }
