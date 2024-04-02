@@ -153,10 +153,10 @@
 }
 
 .cross span:nth-child(1) {
-    transform: rotate(54deg) translateY(26px);
+    transform: rotate(52deg) translateY(26px);
     transition: all 300ms linear;
     position: relative;
-    top: -7px;
+    top: -5px;
 }
 
 .cross span:nth-child(2) {
@@ -169,7 +169,7 @@
     transform: rotate(-54deg) translateY(-27px);
     transition: all 300ms linear;
     position: relative;
-    top: 1px;
+    top: 3px;
 }
 
 .underline::after {
