@@ -231,7 +231,7 @@
 }
 
 .gif_btn_style_hover:hover {
-    box-shadow: 10px 10px 19px -4px var(--clr-white);
+    /* box-shadow: 10px 10px 19px -4px var(--clr-white); */
     background: var(--clr-black);
     color: var(--clr-white);
     border: 2px solid var(--clr-white);
@@ -457,7 +457,7 @@
     row-gap: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 766.98px) {
     .align_items_start {
         align-items: start;
     }
@@ -486,7 +486,7 @@
     }
 }
 
-@media (max-width:992px) {
+@media (max-width:991.98px) {
     .overFlowHidden {
         overflow: hidden;
     }
