@@ -84,20 +84,8 @@
     }
 }
 
-@media (min-width:768px) {
-    :root {}
-}
-
 @media (min-width:992px) {
     :root {
-        /* --fs-s: 14px; */
-        /* --fs-xs: 16px; */
-        /* --fs-sm: 18px; */
-        /* --fs-md: 20px; */
-        /* --fs-lg: 21.74px; */
-        /* --fs-xl: 25px; */
-        /* --fs-xxl:30px */
-        /* --fs-2xl: 50px; */
         --fs-3xl: 70px;
     }
 }

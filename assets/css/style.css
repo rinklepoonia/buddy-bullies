@@ -196,8 +196,9 @@
 .ellips_property {
     width: 337px;
     height: 337px;
-    background: #009DFF;
+    background: var(--clr-timelineblue);
     filter: blur(170px);
+    opacity: 40%;
 }
 
 .mint_section_ellip1 {
@@ -207,7 +208,7 @@
 
 .mint_section_ellip2 {
     top: 34%;
-    right: -231px;
+    right: 0;
 }
 
 .pb_67 {
@@ -231,7 +232,6 @@
 }
 
 .gif_btn_style_hover:hover {
-    /* box-shadow: 10px 10px 19px -4px var(--clr-white); */
     background: var(--clr-black);
     color: var(--clr-white);
     border: 2px solid var(--clr-white);
@@ -387,9 +387,16 @@
     max-width: 800px;
 }
 
+.faq_ellips_property {
+    width: 190px;
+    height: 337px;
+    background: var(--clr-timelineblue);
+    filter: blur(185px);
+}
+
 .accordion_ellip_position {
     top: -15%;
-    right: -15%;
+    right: 0;
 }
 
 .accordion-item {
