@@ -459,6 +459,14 @@
     max-width: 220px;
 }
 
+.zoom_img {
+    transition: 0.2s linear;
+}
+
+.zoom_img:hover {
+    scale: 1.1;
+}
+
 /* ================footer============== */
 .pb_20 {
     padding-bottom: 20px;
