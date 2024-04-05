@@ -209,14 +209,13 @@
     opacity: 40%;
 }
 
-.mint_section_ellip1 {
-    left: 22%;
-    top: 31%;
+.mint_ellip_position1 {
+    top: -24%;
 }
 
-.mint_section_ellip2 {
-    top: 34%;
-    right: 0;
+.mint_ellip_position2 {
+    left: 23%;
+    top: 4%;
 }
 
 .pb_67 {
@@ -395,16 +394,8 @@
     max-width: 800px;
 }
 
-.faq_ellips_property {
-    width: 190px;
-    height: 337px;
-    background: var(--clr-timelineblue);
-    filter: blur(185px);
-}
-
 .accordion_ellip_position {
-    top: -15%;
-    right: 0;
+    top: -106%;
 }
 
 .accordion-item {
@@ -468,6 +459,22 @@
 }
 
 /* ================footer============== */
+.footer_link:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: var(--clr-white);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.2s linear;
+}
+
+.footer_link:hover::after {
+    width: 100%;
+}
+
 .pb_20 {
     padding-bottom: 20px;
 }
