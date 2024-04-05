@@ -119,6 +119,10 @@
 }
 
 /* ==================nav============= */
+.min_vh_80 {
+    min-height: 80vh;
+}
+
 .hero_bg {
     background-image: url(/assets/images/svg/hero-bg-img.svg);
     background-size: cover;
@@ -719,5 +723,9 @@
 
     .pt_lg_140 {
         padding-top: 140px;
+    }
+
+    .min-vh-lg-100 {
+        min-height: 100vh;
     }
 }
